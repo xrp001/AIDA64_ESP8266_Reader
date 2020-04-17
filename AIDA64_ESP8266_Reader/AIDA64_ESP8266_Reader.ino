@@ -63,7 +63,10 @@ void setup() {
 int value = 0;
 void loop() {
   sendrequest();
-  draw_CPU();
+  
+  // 更改以显示CPU或者GPU
+  draw_CPU(); // 显示CPU
+  //draw_GPU(); // 显示GPU
 }
 
 
